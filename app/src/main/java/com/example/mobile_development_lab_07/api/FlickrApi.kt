@@ -36,4 +36,6 @@ interface FlickrApi {
         @Query("method") method: String = "flickr.photos.getInfo", // Параметр метода по умолчанию для получения информации о фото
         @Query("photo_id") photoId: String, // Параметр идентификатора фотографии
     ): Call<FlickrResponse> // Возвращаем объект Call с ответом от сервера
+
+
 }
