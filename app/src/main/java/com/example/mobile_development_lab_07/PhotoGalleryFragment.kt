@@ -37,7 +37,7 @@ private const val TAG = "PhotoGalleryFragment" // Тег для логирова
 private const val POLL_WORK = "POLL_WORK" // Идентификатор для работы опроса
 
 class PhotoGalleryFragment : Fragment() {
-
+    // Converter
     private lateinit var photoGalleryViewModel: PhotoGalleryViewModel // ViewModel для управления данными галереи
     private lateinit var photoRecyclerView: RecyclerView // RecyclerView для отображения фотографий
     private lateinit var loadingIndicator: ProgressBar // Индикатор загрузки
