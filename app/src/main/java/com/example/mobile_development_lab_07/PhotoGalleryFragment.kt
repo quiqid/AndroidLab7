@@ -98,7 +98,7 @@ class PhotoGalleryFragment : Fragment() {
                             photoGalleryViewModel.fetchPhotos(queryText)
 
                             return true // Указываем, что событие обработано успешно
-                        }
+                        } //
 
                         override fun onQueryTextChange(queryText: String): Boolean {
                             Log.d(TAG, "QueryTextChange: $queryText") // Логируем изменения текста запроса
